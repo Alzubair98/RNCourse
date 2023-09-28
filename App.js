@@ -9,7 +9,7 @@ export default function App() {
           margin: 16,
           borderWidth: 3,
           borderColor: "#AED2FF",
-          padding: 3,
+          padding: 5,
           borderRadius: 10,
         }}
       >
