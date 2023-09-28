@@ -5,6 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>To Do List</Text>
+      <Text>Another piece of</Text>
+      <Button title="click me mate" />
 
       <StatusBar style="auto" />
     </View>
