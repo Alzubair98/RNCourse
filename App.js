@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text
         style={{
-          margin: 16,
+          margin: 10,
           borderWidth: 3,
           borderColor: "#AED2FF",
           padding: 5,
@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   test: {
-    backgroundColor: "red",
+    borderWidth: 3,
+    padding: 5,
+    borderRadius: 10,
+    borderColor: "#AED2FF",
   },
 });
