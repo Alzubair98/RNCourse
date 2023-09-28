@@ -15,7 +15,7 @@ export default function App() {
       >
         To Do List
       </Text>
-      <Text>Another piece of</Text>
+      <Text style={styles.test}>Another piece of</Text>
       <Button title="click me mate" />
       <StatusBar style="auto" />
     </View>
@@ -28,5 +28,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#F1EFEF",
     alignItems: "center",
     justifyContent: "center",
+  },
+  test: {
+    backgroundColor: "red",
   },
 });
